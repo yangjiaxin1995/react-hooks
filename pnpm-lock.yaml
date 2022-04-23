@@ -285,12 +285,12 @@ importers:
   hooks/useCookieState:
     specifiers:
       '@pansy/use-memoized-fn': 0.2.4
-      '@types/js-cookie': ^2.x.x
-      js-cookie: ^2.x.x
+      '@types/js-cookie': ^3.0.0
+      js-cookie: ^3.0.0
     dependencies:
       '@pansy/use-memoized-fn': link:../useMemoizedFn
-      '@types/js-cookie': 2.2.7
-      js-cookie: 2.2.1
+      '@types/js-cookie': 3.0.2
+      js-cookie: 3.0.1
 
   hooks/useCreation:
     specifiers:
@@ -4963,8 +4963,8 @@ packages:
       pretty-format: 26.6.2
     dev: true
 
-  /@types/js-cookie/2.2.7:
-    resolution: {integrity: sha512-aLkWa0C0vO5b4Sr798E26QgOkss68Un0bLjs7u9qxzPT5CG+8DuNTffWES58YzJs3hrVAOs1wonycqEBqNJubA==}
+  /@types/js-cookie/3.0.2:
+    resolution: {integrity: sha512-6+0ekgfusHftJNYpihfkMu8BWdeHs9EOJuGcSofErjstGPfPGEu9yTu4t460lTzzAMl2cM5zngQJqPMHbbnvYA==}
     dev: false
 
   /@types/json-schema/7.0.9:
@@ -11437,8 +11437,9 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /js-cookie/2.2.1:
-    resolution: {integrity: sha512-HvdH2LzI/EAZcUwA8+0nKNtWHqS+ZmijLA30RwZA0bo7ToCckjK5MkGhjED9KoRcXO6BaGI3I9UIzSA1FKFPOQ==}
+  /js-cookie/3.0.1:
+    resolution: {integrity: sha512-+0rgsUXZu4ncpPxRL+lNEptWMOWl9etvPHc/koSRp6MPwpRYAhmk0dUG00J4bxVV3r9uUzfo24wW0knS07SKSw==}
+    engines: {node: '>=12'}
     dev: false
 
   /js-sdsl/2.1.4:
